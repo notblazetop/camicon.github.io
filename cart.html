@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAMiCON - Artist Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo-link"><div class="logo">CAMiCON</div></a>
+        <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" class="search-bar" placeholder="Search for merchandise or artist...">
+        </div>
+        <div class="user-actions">
+            <a href="artist.html"><button>My Account</button></a>
+            <a href="cart.html"><button><i class="fas fa-shopping-cart"></i></button></a>
+        </div>
+    </header>
+
+    <main>
+        <div class="cart-container">
+            <h1>Shopping Cart</h1>
+            <div class="cart-items">
+                <div class="cart-item">
+                    <input type="checkbox">
+                    <img src="assets/item1.png" alt="Pokemon Starter Pack Kanto">
+                    <div class="item-details">
+                        <h2>POKEMON STARTER PACK</h2>
+                        <p>Kanto Region Waterproof...</p>
+                        <div class="price">
+                            <span class="original-price">₱60</span>
+                            <span class="discounted-price">₱50</span>
+                        </div>
+                        <div class="quantity-controls">
+                            <button class="decrease">-</button>
+                            <input type="number" value="1" min="1">
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="total-price">₱50</div>
+                </div>
+                <div class="cart-item">
+                    <input type="checkbox">
+                    <img src="assets/item2.png" alt="Pokemon Starter Pack Hoenn">
+                    <div class="item-details">
+                        <h2>POKEMON STARTER PACK</h2>
+                        <p>Hoenn Region Waterproof...</p>
+                        <div class="price">
+                            <span class="original-price">₱60</span>
+                            <span class="discounted-price">₱50</span>
+                        </div>
+                        <div class="quantity-controls">
+                            <button class="decrease">-</button>
+                            <input type="number" value="1" min="1">
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="total-price">₱50</div>
+                </div>
+                <div class="cart-item">
+                    <input type="checkbox">
+                    <img src="assets/item3.png" alt="Pokemon Tote Bag">
+                    <div class="item-details">
+                        <h2>POKEMON TOTE BAG</h2>
+                        <p>Mimikyu Design</p>
+                        <div class="price">
+                            <span class="discounted-price">₱250</span>
+                        </div>
+                        <div class="quantity-controls">
+                            <button class="decrease">-</button>
+                            <input type="number" value="1" min="1">
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                    <div class="total-price">₱250</div>
+                </div>
+            </div>
+            
+            <div class="checkout-section">
+                <h2>Order Summary</h2>
+                <div class="order-details">
+                    <div class="order-item">
+                        <span>Subtotal</span>
+                        <span>₱350</span>
+                    </div>
+                    <div class="order-item">
+                        <span>Shipping</span>
+                        <span>₱50</span>
+                    </div>
+                    <div class="order-item total">
+                        <span>Total</span>
+                        <span>₱400</span>
+                    </div>
+                </div>
+                <a href="checkout.html"><button class="checkout-btn">Proceed to Checkout</button></a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="about-links">
+                <a href="#about">About Us</a>
+                <a href="#faq">FAQ</a>
+                <a href="#terms">Terms</a>
+                <a href="#privacy">Privacy</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+        <br>
+        <p>&copy; CAMiCON. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
